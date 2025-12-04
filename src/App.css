@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+:root {
+    --mh-red: #b32025;
+    --mh-blue: #1a4e8a;
+    --mh-gold: #d4a44a;
+    --mh-teal: #2b8f86;
+    --mh-purple: #6d3ba0;
+    --mh-dark: #1a1a1a;
+    --mh-light: #f3e6d0;
+    --mh-gray: #3d3d3d;
+    --mh-orange: #d2692c;
+}
+
