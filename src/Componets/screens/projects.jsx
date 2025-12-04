@@ -3,7 +3,7 @@
 export default function Projects(){
     return(
 
-        <div className="w-full bg-[var(--mh-gray)] py-12 px-4">
+        <div className="py-12 px-4">
             {/* PROJECTS CARD */}
             <div className="max-w-5xl mx-auto bg-[var(--mh-dark)]
                       border-4 border-[var(--mh-teal)]
