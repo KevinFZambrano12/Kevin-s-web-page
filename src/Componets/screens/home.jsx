@@ -171,7 +171,6 @@ export default function home() {
                     </li>
                 </ul>
             </div>
-
         </div>
 
     );
