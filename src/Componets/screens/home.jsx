@@ -27,11 +27,18 @@ export default function home() {
                             mb-4 sm:mb-6"
                     />
 
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--mh-gold)] mb-2">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--mh-gold)] mb-6">
                         Kevin Zambrano
                     </h1>
 
-                    <p className="text-[var(--mh-light)] text-lg sm:text-xl mb-4">
+                    <div className="mb-4">
+                        <a href="mailto:kevinfzambrano@hotmail.com"
+                            className=" text-[var(--mh-light)] text-lg sm:text-xl underline underline-offset-2 ">
+                            kevinfzambrano@hotmail.com
+                        </a>
+                    </div>
+
+                    <p className="text-[var(--mh-light)] text-lg sm:text-xl mb-6">
                         Full Stack Developer | React • Java • Python • AWS • GCP
                     </p>
 
@@ -50,6 +57,16 @@ export default function home() {
                         >
                             See Projects
                         </Link>
+                        <Link
+                            to="/contact"
+                            className="px-5 py-3
+                                sm:px-6 sm:py-3
+                                bg-[var(--mh-red)] text-[var(--mh-light)]
+                                border-2 border-[var(--mh-gold)] font-semibold
+                                rounded-md hover:bg-[var(--mh-orange)] transition text-center"
+                        >
+                            See Contact
+                        </Link>
                         <a
                             href="https://github.com/KevinFZambrano12"
                             target="_blank"
@@ -59,6 +76,9 @@ export default function home() {
                         >
                             GitHub
                         </a>
+
+
+
                     </div>
 
                 </div>
