@@ -47,7 +47,7 @@ export default function Navbar() {
 
                         {/* OPCIONALES */}
                         <a
-                            href="https://github.com/"
+                            href="https://github.com/KevinFZambrano12"
                             target="_blank"
                             className="block text-[var(--mh-blue)] hover:text-[var(--mh-teal)]"
                         >

@@ -17,15 +17,18 @@ export default function home() {
 
                 <div className="text-center">
 
-                    <img
-                        src="/Kevinphoto.jpeg"
-                        alt="Foto de perfil"
-                        className="min-h-[500px] min-w-[400px]
-                            sm:w-28 sm:h-28
-                            mx-auto rounded-full
-                            border-4 border-[var(--mh-teal)] shadow-lg
-                            mb-4 sm:mb-6"
-                    />
+                    <div
+                        className="w-32 sm:w-40 md:w-48 aspect-square mx-auto
+                        rounded-full overflow-hidden
+                        border-4 border-[var(--mh-gold)] shadow-lg mb-6"
+                    >
+                        <img
+                            src="/Kevinphoto.jpeg"
+                            alt="Foto de perfil"
+                            className="w-full h-full object-cover object-center"
+                        />
+                    </div>
+
 
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--mh-gold)] mb-6">
                         Kevin Zambrano
@@ -70,9 +73,12 @@ export default function home() {
                         <a
                             href="https://github.com/KevinFZambrano12"
                             target="_blank"
-                            className="px-6 py-3 bg-[var(--mh-blue)] text-[var(--mh-light)]
-                                border-2 border-[var(--mh-gold)] font-semibold
-                                rounded-md hover:bg-[var(--mh-teal)] transition"
+                            className="
+                             px-6 py-3
+                            bg-[var(--mh-blue)] text-[var(--mh-light)]
+                            border-2 border-[var(--mh-gold)] font-semibold
+                            rounded-md hover:bg-[var(--mh-teal)] transition
+                            inline-flex items-center justify-center"
                         >
                             GitHub
                         </a>
