@@ -115,77 +115,114 @@ export default function Projects(){
                     technologies used in the project
                 </h3>
 
-                <table className="w-full border-collapse text-left mb-8">
-                    <thead>
-                    <tr className="border-b border-[var(--mh-gold)] text-[var(--mh-gold)]">
-                        <th className="py-3 px-4">Component</th>
-                        <th className="py-3 px-4">Version</th>
-                        <th className="py-3 px-4">Purpose</th>
-                    </tr>
-                    </thead>
-                    <tbody className="text-[var(--mh-light)]">
+                <div className="max-w-5xl mx-auto bg-[var(--mh-dark)] border-2 border-[var(--mh-gold)] rounded-xl shadow-lg p-4">
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">Jakarta EE API</td>
-                        <td className="py-3 px-4">9.0.0</td>
-                        <td className="py-3 px-4">Core platform specification</td>
-                    </tr>
+                    {/* Desktop - tabla normal */}
+                    <div className="hidden md:block">
+                        <table className="w-full border-collapse text-left">
+                            <thead>
+                            <tr className="border-b border-[var(--mh-gold)] text-[var(--mh-gold)]">
+                                <th className="py-3 px-4">Component</th>
+                                <th className="py-3 px-4">Version</th>
+                                <th className="py-3 px-4">Purpose</th>
+                            </tr>
+                            </thead>
+                            <tbody className="text-[var(--mh-light)]">
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">Jakarta EE API</td>
+                                <td className="py-3 px-4">9.0.0</td>
+                                <td className="py-3 px-4">Core platform specification</td>
+                            </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">Payara Server</td>
+                                <td className="py-3 px-4">6.2025.4</td>
+                                <td className="py-3 px-4">Application server</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">Payara Server</td>
-                        <td className="py-3 px-4">6.2025.4</td>
-                        <td className="py-3 px-4">Application server</td>
-                    </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">JDK</td>
+                                <td className="py-3 px-4">17</td>
+                                <td className="py-3 px-4">Java runtime</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">JDK</td>
-                        <td className="py-3 px-4">17</td>
-                        <td className="py-3 px-4">Java runtime</td>
-                    </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">JPA API</td>
+                                <td className="py-3 px-4">3.1.0</td>
+                                <td className="py-3 px-4">Persistence specification</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">JPA API</td>
-                        <td className="py-3 px-4">3.1.0</td>
-                        <td className="py-3 px-4">Persistence specification</td>
-                    </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">EclipseLink</td>
+                                <td className="py-3 px-4">3.0.2</td>
+                                <td className="py-3 px-4">JPA provider implementation</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">EclipseLink</td>
-                        <td className="py-3 px-4">3.0.2</td>
-                        <td className="py-3 px-4">JPA provider implementation</td>
-                    </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">SQL Server JDBC</td>
+                                <td className="py-3 px-4">12.10.0.jre11</td>
+                                <td className="py-3 px-4">Database connectivity</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">SQL Server JDBC</td>
-                        <td className="py-3 px-4">12.10.0.jre11</td>
-                        <td className="py-3 px-4">Database connectivity</td>
-                    </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">JJWT</td>
+                                <td className="py-3 px-4">0.11.5</td>
+                                <td className="py-3 px-4">JWT token generation/validation</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">JJWT</td>
-                        <td className="py-3 px-4">0.11.5</td>
-                        <td className="py-3 px-4">JWT token generation/validation</td>
-                    </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">jQuery</td>
+                                <td className="py-3 px-4">3.6.0</td>
+                                <td className="py-3 px-4">Frontend AJAX communication</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">jQuery</td>
-                        <td className="py-3 px-4">3.6.0</td>
-                        <td className="py-3 px-4">Frontend AJAX communication</td>
-                    </tr>
+                            <tr className="border-b border-white/10 hover:bg-white/5 transition">
+                                <td className="py-3 px-4">Maven</td>
+                                <td className="py-3 px-4">3.x</td>
+                                <td className="py-3 px-4">Build and dependency management</td>
+                            </tr>
 
-                    <tr className="border-b border-white/10 hover:bg-white/5 transition">
-                        <td className="py-3 px-4">Maven</td>
-                        <td className="py-3 px-4">3.x</td>
-                        <td className="py-3 px-4">Build and dependency management</td>
-                    </tr>
+                            <tr>
+                                <td className="py-3 px-4">JUnit Jupiter</td>
+                                <td className="py-3 px-4">5.6.0</td>
+                                <td className="py-3 px-4">Unit testing framework</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
-                    <tr>
-                        <td className="py-3 px-4">JUnit Jupiter</td>
-                        <td className="py-3 px-4">5.6.0</td>
-                        <td className="py-3 px-4">Unit testing framework</td>
-                    </tr>
-                    </tbody>
-                </table>
+                    {/* Mobile - cards */}
+                    <div className="md:hidden space-y-4">
+                        {[
+                            { name: "Jakarta EE API", version: "9.0.0", purpose: "Core platform specification" },
+                            { name: "Payara Server", version: "6.2025.4", purpose: "Application server" },
+                            { name: "JDK", version: "17", purpose: "Java runtime" },
+                            { name: "JPA API", version: "3.1.0", purpose: "Persistence specification" },
+                            { name: "EclipseLink", version: "3.0.2", purpose: "JPA provider implementation" },
+                            { name: "SQL Server JDBC", version: "12.10.0.jre11", purpose: "Database connectivity" },
+                            { name: "JJWT", version: "0.11.5", purpose: "JWT token generation/validation" },
+                            { name: "jQuery", version: "3.6.0", purpose: "Frontend AJAX communication" },
+                            { name: "Maven", version: "3.x", purpose: "Build and dependency management" },
+                            { name: "JUnit Jupiter", version: "5.6.0", purpose: "Unit testing framework" },
+                        ].map((item, i) => (
+                            <div
+                                key={i}
+                                className="bg-black/40 border border-[var(--mh-gold)] rounded-lg p-4 shadow-md"
+                            >
+                                <h3 className="text-[var(--mh-gold)] font-bold text-lg mb-2">
+                                    {item.name}
+                                </h3>
+                                <p className="text-[var(--mh-light)]">
+                                    <span className="text-gray-400">Version:</span> {item.version}
+                                </p>
+                                <p className="text-[var(--mh-light)]">
+                                    <span className="text-gray-400">Purpose:</span> {item.purpose}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+
+                </div>
+
                 <a
                     href="https://github.com/Arst097/E-TradeTech"
                     target="_blank"
