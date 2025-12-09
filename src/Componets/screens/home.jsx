@@ -49,24 +49,42 @@ export default function home() {
                         {text2}
                     </p>
 
-                    <div className="flex justify-center gap-4">
+                    <div className="flex flex-col sm:flex-row flex-wrap gap-3 justify-center items-center mt-6">
                         <Link
                             to="/projects"
-                            className="px-5 py-3
-                                sm:px-6 sm:py-3
-                                bg-[var(--mh-red)] text-[var(--mh-light)]
-                                border-2 border-[var(--mh-gold)] font-semibold
-                                rounded-md hover:bg-[var(--mh-orange)] transition text-center"
+                            className=" w-full sm:w-auto
+                            max-w-[220px]
+
+                            h-12
+                            px-4
+
+                            bg-[var(--mh-red)]
+                            text-[var(--mh-light)]
+                            border-2 border-[var(--mh-gold)]
+                            rounded-md
+                            font-semibold
+
+                            inline-flex items-center justify-center
+                            text-center"
                         >
                             See Projects
                         </Link>
                         <Link
                             to="/contact"
-                            className="px-5 py-3
-                                sm:px-6 sm:py-3
-                                bg-[var(--mh-red)] text-[var(--mh-light)]
-                                border-2 border-[var(--mh-gold)] font-semibold
-                                rounded-md hover:bg-[var(--mh-orange)] transition text-center"
+                            className=" w-full sm:w-auto
+                                max-w-[220px]
+
+                                h-12
+                                px-4
+
+                                bg-[var(--mh-red)]
+                                text-[var(--mh-light)]
+                                border-2 border-[var(--mh-gold)]
+                                rounded-md
+                                font-semibold
+
+                                inline-flex items-center justify-center
+                                text-center"
                         >
                             See Contact
                         </Link>
@@ -74,11 +92,20 @@ export default function home() {
                             href="https://github.com/KevinFZambrano12"
                             target="_blank"
                             className="
-                             px-6 py-3
-                            bg-[var(--mh-blue)] text-[var(--mh-light)]
-                            border-2 border-[var(--mh-gold)] font-semibold
-                            rounded-md hover:bg-[var(--mh-teal)] transition
-                            inline-flex items-center justify-center"
+                             w-full sm:w-auto
+                            max-w-[220px]
+
+                            h-12
+                            px-4
+
+                            bg-[var(--mh-blue)]
+                            text-[var(--mh-light)]
+                            border-2 border-[var(--mh-gold)]
+                            rounded-md
+                            font-semibold
+
+                            inline-flex items-center justify-center
+                            text-center"
                         >
                             GitHub
                         </a>

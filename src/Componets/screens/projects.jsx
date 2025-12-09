@@ -189,10 +189,23 @@ export default function Projects(){
                 <a
                     href="https://github.com/Arst097/E-TradeTech"
                     target="_blank"
-                    className="px-6 py-3 bg-[var(--mh-blue)] text-[var(--mh-light)]
-                                border-2 border-[var(--mh-gold)] font-semibold
-                                rounded-md hover:bg-[var(--mh-teal)] transition
-                                "
+                    className="mt-4
+                            w-full
+                            sm:w-auto
+                            px-4 py-3
+
+                            bg-[var(--mh-blue)]
+                            text-[var(--mh-light)]
+                            border-2 border-[var(--mh-gold)]
+
+                            rounded-md
+                            font-semibold
+                            text-sm sm:text-base
+
+                            inline-flex items-center justify-center
+                            text-center
+
+                            break-words"
                 >
                     Link to the repository
                 </a>
